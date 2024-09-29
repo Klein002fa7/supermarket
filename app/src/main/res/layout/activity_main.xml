@@ -6,16 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <TextView
+     <TextView
         android:id="@+id/tvShop"
         android:layout_width="0dp"
         android:layout_height="40dp"
-        android:background="#7159FD"
-        android:gravity="center"
-        android:text="超市"
+        android:background="#f00"
         android:textColor="#fff"
+        android:text="超市"
         android:textSize="20sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,6 +28,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvShop">
     </ListView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
